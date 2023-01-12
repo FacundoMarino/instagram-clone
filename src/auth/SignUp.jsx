@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useForm } from '../hooks/useForm';
 import logo from '../assets/instagram-logo.png';
-import './SignUp.css';
+import './index.css';
 
 export const SignUp = () => {
 	const { email, password, fullname, username, inputHandler, formState } =

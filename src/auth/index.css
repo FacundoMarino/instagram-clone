@@ -1,5 +1,4 @@
 .signup {
-	background-image: url('https://www.todofondos.net/wp-content/uploads/5120x2880-Fin-de-semana-papel-tapiz-de-gradiente-de-Instagram-para-Mac-iPhone-iPad-scaled.jpg');
 	background-size: cover;
 	flex: 1;
 	display: flex;
@@ -23,7 +22,7 @@
 	align-items: center;
 	background-color: white;
 	padding: 30px;
-	border: 1px solid black;
+	border: -3px solid black;
 	border-radius: 10px;
 	width: auto;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -39,7 +38,7 @@
 }
 
 form > div {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -58,11 +57,16 @@ form > div {
 }
 .submit {
 	font-weight: bold;
-	width: 8rem;
+	width: 100%;
 	padding: 8px;
 	margin: 8px;
 	border: none;
 	border-radius: 5px;
-	background-color: rgb(109, 109, 206);
+	background-color: #1773ea;
 	color: white;
+	opacity: 70%;
+}
+
+.submit:hover {
+	opacity: 100%;
 }
