@@ -1,0 +1,27 @@
+.logo {
+	width: 15%;
+	object-fit: contain;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 1px 5px 5px black;
+	width: 100vw;
+}
+
+.nav-menu {
+	display: flex;
+}
+
+li {
+	list-style: none;
+	padding: 1px 15px;
+}
+
+a {
+	color: black;
+	font-size: 1rem;
+	text-decoration: none;
+}
